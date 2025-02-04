@@ -27,11 +27,17 @@ f.o 40Xa + 30Xb + 50Xc + 60Xd (Máx)
 s.a
 
 2Xa + 4Xb + 3Xc + 5Xd <= 500
+
 3Xa + 2Xb + 4Xc + Xd <= 600 
+
 Xa <= 100
+
 Xb <= 150
+
 Xc <= 200
+
 Xd <= 80
+
 Xa,Xb,Xc,Xd >= 0
 
 
