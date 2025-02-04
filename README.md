@@ -23,6 +23,7 @@ Objetivo: Maximizar o lucro total da produção, considerando as restrições de
 
 ## Modelagem ##
 f.o 40Xa + 30Xb + 50Xc + 60Xd (Máx)
+
 s.a
 2Xa + 4Xb + 3Xc + 5Xd <= 500 (Hora-Trabalho)
 3Xa + 2Xb + 4Xc + Xd <= 600 (Matéria-Prima)
