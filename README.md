@@ -20,3 +20,21 @@ Produto D: cada unidade requer 5 horas de trabalho e 1 metro de matéria-prima, 
 A fábrica tem 500 horas de trabalho disponíveis e 600 metros de matéria-prima para utilizar. Além disso, a fábrica possui uma capacidade de produção máxima de 100 unidades para o produto A, 150 unidades para o produto B, 200 unidades para o produto C e 80 unidades para o produto D.
 
 Objetivo: Maximizar o lucro total da produção, considerando as restrições de recursos (horas de trabalho e matéria-prima) e as capacidades máximas de produção de cada produto.
+
+## Modelagem ##
+f.o 40Xa + 30Xb + 50Xc + 60Xd (Máx)
+s.a
+2Xa + 4Xb + 3Xc + 5Xd <= 500 (Hora-Trabalho)
+3Xa + 2Xb + 4Xc + Xd <= 600 (Matéria-Prima)
+Xa <= 100
+Xb <= 150
+Xc <= 200
+Xd <= 80
+Xa,Xb,Xc,Xd >= 0
+
+
+## Solução ##
+(Xa; Xb; Xc; Xd) = (100; 0; 70.58; 17.64)
+40 × 100 + 30 × 0 + 50 × 70.58 + 60 × 17.64 = R$ 8588,23 (Lucro Máximo 
+
+
